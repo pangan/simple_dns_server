@@ -5,7 +5,7 @@ from typing import List
 import click
 import coloredlogs
 
-from dns_local.dnsserver import DEFAULT_PORT, DomainName, DomainEntry, MyThreadingUDPServer, MyThreadingTCPServer, \
+from dns_src.dnsserver import DEFAULT_PORT, DomainName, DomainEntry, MyThreadingUDPServer, MyThreadingTCPServer, \
     UDPRequestHandler, TCPRequestHandler
 
 coloredlogs.install(level=logging.DEBUG)

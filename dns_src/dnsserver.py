@@ -11,7 +11,7 @@ from re import compile, Pattern
 
 from dnslib import SOA, NS, AAAA, A, CNAME, MX, DNSRecord, DNSHeader, QTYPE, RR
 
-from dns_local.exceptions import DnsLocalException
+from dns_src.exceptions import DnsLocalException
 
 logger = logging.getLogger(__name__)
 

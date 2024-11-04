@@ -1,6 +1,6 @@
 *.pyc
 *.idea
 *.egg-info
-dns_local/_version.py
+dns_src/_version.py
 .venv
 
